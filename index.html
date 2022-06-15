@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta name="theme-color" content="#f7f7f7">
 
   <title>Emonena Confidence - Freelance web and mobile app developer</title>
   <meta content="I am Freelance web developer in Lagos, Mobile App developer, WordPress Developer, Graphics designer areound you" name="description">
@@ -13,6 +14,7 @@
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/favicon.png" rel="apple-touch-icon">
+  <link rel="manifest" href="manifest.json">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -947,6 +949,18 @@
       backSpeed: 100,
       loop: true
     })
+  </script>
+  <script>
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker
+        .register("sw.js")
+        .then(function (registration) {
+          console.log("success load");
+        })
+        .catch(function (err) {
+          console.log(err);
+        });
+     }
   </script>
   <!-- Vendor JS Files -->
   <script src="assets/vendor/purecounter/purecounter.js"></script>
