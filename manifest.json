@@ -1,11 +1,12 @@
 {
   "name": "Dev-Clinton",
-  "short_name": "Dev-Clinton",
-  "start_url": "/",
+  "short_name": "DevClinton",
+  "start_url": "index.html",
   "scope": "/",
   "background_color": "#000080",
   "theme_color": "#f7f7f7",
   "display": "standalone",
+  "orientation": "portrait-primary",
   "icons": [
     {
       "src": "assets/img/favicon.png",
