@@ -3,7 +3,7 @@
   "short_name": "DevClinton",
   "start_url": "/",
   "scope": "/",
-  "background_color": "#000080",
+  "background_color": "#355fe8",
   "theme_color": "#f7f7f7",
   "display": "standalone",
   "orientation": "portrait-primary",
