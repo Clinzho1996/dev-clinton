@@ -3,8 +3,8 @@
   "short_name": "Dev Clinton",
   "start_url": "/",
   "scope": "/",
-  "background_color": "#355fe8",
-  "theme_color": "#f7f7f7",
+  "background_color": "#150644",
+  "theme_color": "#150644",
   "display": "standalone",
   "orientation": "portrait-primary",
   "icons": [
