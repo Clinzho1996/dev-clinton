@@ -23,6 +23,13 @@ body::before {
   height: 100vh;
   z-index: -1;
 }
+@media screen and (max-width: 968px) {
+  .portfolio-details-slider .swiper-slide img {
+    width: 400px;
+    height: 400px;
+  }
+}
+
 @media (min-width: 1024px) {
   body::before {
     background-attachment: fixed;
